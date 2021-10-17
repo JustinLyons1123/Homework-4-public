@@ -1,17 +1,9 @@
 # Homework-4-public
 homework 4 public
 
-// C++ program to print all
-// permutations with duplicates allowed
 #include <iostream>
 using namespace std;
 
-
-// Function to print permutations of string
-// This function takes three parameters:
-// 1. String
-// 2. Starting index of the string
-// 3. Ending index of the string.
 void permute(string a, int l, int r)
 {
 	// Base case
@@ -42,7 +34,7 @@ int main()
 {
 	int k;
 	string str;
-
+				      
 	cout << "Please enter the number of items to be permuted:";
 	cin >> k;
 	cout << "Please enter the items to be permuted:";
@@ -52,4 +44,3 @@ int main()
 	return 0;
 }
 
-// This is code is contributed by rathbhupendra
